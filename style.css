@@ -1,0 +1,39 @@
+p[class="quotation"] {
+    color: blue;
+}
+.quotation {
+    color:red;
+}
+#citation {
+    color:green;
+}
+a[href^="https"] {
+    color: #f00;
+}
+ul.list > li > ul > li > a[title="youtube"] {
+    color: #ff8d00;
+}
+ul + p {
+    font-size: 26px;
+}
+a[title] {
+    border: 1px solid #067b09;
+}
+.text-box h3:first-child {
+    color: pink;
+}
+.text-box #greycol {
+    color: grey;
+}
+.text-box div > p {
+    color: red;
+}
+.text-box h3[title="text"] {
+    color: blue;
+}
+.text-box h3[title="text"] + p {
+    color: green;
+}
+.text-box p.yellow {
+    color: yellow;
+}
